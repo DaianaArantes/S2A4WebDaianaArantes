@@ -1,0 +1,281 @@
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal .80em sans-serif;
+    background: #FFF;
+    color: #555;
+}
+
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
+img {
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffb3da;
+    
+    padding: 0 0 5px 0;
+}
+
+h1, h2, h3 {
+    font: normal 170% arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+}
+
+h2 {
+    font-size: 160%;
+    padding: 9px 0 5px 0;
+}
+
+h3 {
+    font-size: 140%;
+    padding: 5px 0 0 0;
+}
+
+h4, h6 {
+    color: #009FBC;
+    padding: 0 0 5px 0;
+    font: normal 110% arial;
+    text-transform: uppercase;
+}
+
+h5, h6 {
+    color: #888;
+    font: normal 95% arial;
+    padding: 0 0 15px 0;
+}
+
+ul {
+    margin: 2px 0 22px 17px;
+}
+
+ul li {
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    
+}
+
+
+
+#main, #logo, #menubar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background: #1d1d1d;
+    border-bottom: 2px solid #E7746F;
+    height: 177px;
+}
+
+#logo img {
+    float: left;
+    position: absolute;
+    display: block;
+    margin-left: -70px;
+}
+
+#logo {
+    width: 880px;
+    position: relative;
+    height: 140px;
+    background: transparent;
+}
+
+
+#logo h1, #logo h2 {
+    font: normal 300% sans-serif;
+    border-bottom: 0;
+    text-transform: none;
+    margin: 0 0 0 9px;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text  {
+    padding: 22px 0 0 0;
+    color: #FFF;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+
+
+#logo_text a:hover {
+    color: #FFF;
+}
+
+#logo_text h2 {
+    font-size: 120%;
+    padding: 4px 0 0 0;
+    color: #FFF;
+}
+
+#menubar {
+    width: 880px;
+    height: 46px;
+}
+
+ul#menu {
+    float: right;
+    margin: -10px;
+    width:610px;
+}
+
+ul#menu li {
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+    background: transparent;
+}
+
+ul#menu li a {
+    font: normal 100% 'trebuchet ms', sans-serif;
+    display: block;
+    float: left;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    background: transparent;
+}
+
+ul#menu li.selected a {
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+}
+
+ul#menu li.selected {
+    margin: 1px 2px 0 0;
+    background: #ffb3da;
+}
+
+ul#menu li.selected a, ul#menu li.selected a:hover {
+    background: #ffb3da;
+    color: #FFF;
+}
+
+ul#menu li a:hover {
+    color: #FFF;
+    background: #ffb3da;
+}
+
+#shopping_cart {
+    color: yellow;
+    font-size: 20px;
+}
+
+#site_content {
+    width: 900px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    padding: 0 0 100px 0;
+}
+    
+
+#form {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    text-align: right;
+    width: 500px;
+    
+}
+
+#errorBox {
+    display:block;
+    font-size: 18px;
+    clear: both;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: left;
+    width: 500px;
+}
+
+#printTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#printTable img {
+    width: 80px;
+}
+
+#printTable td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#printTable tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    border-top: 2px solid #E7746F;
+}
+
+
+.items {
+    padding: 35px;
+    background-color: #ffb3da;
+    width: 250px;
+    height: 360px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 0px #A4A4A4;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+    position: relative;
+}
+
+.items:hover input[type="button"] {
+    display: block;
+}
+
+.items input[type="button"] {
+    display: none;
+    background: none;
+    background-color: #ff1a90;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    cursor: pointer;
+}
+
+.items img {
+    width: 180px;
+    height: 250px;
+}
+
+.items p {
+    color: #008000;
+    font-size:14px;
+}
+
+
